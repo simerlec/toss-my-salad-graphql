@@ -2,16 +2,16 @@ import { gql } from "apollo-server-express";
 
 const typeDefs = gql`
   type Query {
-    allDressings: [Dressing]
-    allGreens: [Green]
+    allDressings: [Dressing!]!
+    allGreens: [Green!]!
   }
 
   type Dressing {
-    name: String
+    name: String!
   }
 
   type Green {
-    name: String
+    name: String!
   }
 `;
 
