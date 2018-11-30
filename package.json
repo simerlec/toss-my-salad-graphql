@@ -1,0 +1,23 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "My first graphql server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "initdb": "node -r esm src/initdb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "@std/esm": "cjs",
+  "author": "csim",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.2.5",
+    "cors": "^2.8.5",
+    "esm": "^3.0.84",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.14"
+  }
+}
