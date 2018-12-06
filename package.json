@@ -4,11 +4,10 @@
   "description": "My first graphql server",
   "main": "index.js",
   "scripts": {
-    "start": "node -r esm index.js",
+    "start": "node -r esm src/index.js",
     "initdb": "node -r esm src/initdb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "@std/esm": "cjs",
   "author": "csim",
   "license": "MIT",
   "dependencies": {

@@ -1,10 +1,10 @@
 import express from "express";
 import cors from "cors";
 import { ApolloServer } from "apollo-server-express";
-import resolvers from "./src/resolvers/resolvers";
-import typeDefs from "./src/schema/schema";
+import resolvers from "./resolvers/resolvers";
+import typeDefs from "./schema/schema";
 import mongoose from "mongoose";
-import { initSeed } from "./src/initdb";
+import { initSeed } from "./initdb";
 
 mongoose.connect(
   `mongodb://root:testroot1@ds119734.mlab.com:19734/toss-my-salad`,
